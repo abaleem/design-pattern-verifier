@@ -1,0 +1,4 @@
+rootProject.name = 'abdullah-aleem-hw2'
+include 'Applications'
+include 'AnnotationProcessor'
+

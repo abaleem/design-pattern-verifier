@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Tests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Tests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Tests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.245s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">AbstractFactoryNotInterface</td>
+<td class="success">0.217s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">AbstractFactoryUsesConcreteProduct</td>
+<td class="success">0.221s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">BasicStructureCorrect</td>
+<td class="success">0.155s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ConcreteDoesNotExtendAbstract</td>
+<td class="success">0.968s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ConcreteImplementationMissing</td>
+<td class="success">0.216s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SimpleImplementation</td>
+<td class="success">0.468s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:35:58.992 [Test worker] INFO  A.AnnotationProcessor - Running Test: ConcreteDoesNotExtendAbstract
+21:35:59.863 [Test worker] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:35:59.864 [Test worker] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:35:59.864 [Test worker] WARN  A.AnnotationProcessor - No Client found
+21:35:59.864 [Test worker] INFO  A.AnnotationProcessor - Checking abstract factory: abstractFactory
+21:35:59.865 [Test worker] INFO  A.AnnotationProcessor - Checking concrete factory: factory1
+21:35:59.868 [Test worker] ERROR A.AnnotationProcessor - Concrete factory factory1 doesn't implement any interface
+21:35:59.875 [Test worker] INFO  A.AnnotationProcessor - Checking abstract product: abstractProduct
+21:35:59.875 [Test worker] ERROR A.AnnotationProcessor - Concrete Implementations of abstractProduct are less than factory variants
+21:35:59.878 [Test worker] INFO  A.AnnotationProcessor - Checking concrete product: product1
+21:35:59.879 [Test worker] ERROR A.AnnotationProcessor - Concrete product product1 doesn't implement any interface
+21:35:59.880 [Test worker] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
+21:35:59.955 [Test worker] INFO  A.AnnotationProcessor - Running Test: SimpleImplementation
+21:36:00.273 [Test worker] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:36:00.274 [Test worker] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:36:00.274 [Test worker] WARN  A.AnnotationProcessor - No Client found
+21:36:00.275 [Test worker] INFO  A.AnnotationProcessor - Checking abstract factory: abstractFactory
+21:36:00.277 [Test worker] INFO  A.AnnotationProcessor - Checking concrete factory: factory1
+21:36:00.279 [Test worker] INFO  A.AnnotationProcessor - Checking abstract product: abstractProduct
+21:36:00.281 [Test worker] INFO  A.AnnotationProcessor - Checking concrete product: product1
+21:36:00.281 [Test worker] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
+21:36:00.426 [Test worker] INFO  A.AnnotationProcessor - Running Test: AbstractFactoryNotInterface
+21:36:00.629 [Test worker] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:36:00.631 [Test worker] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:36:00.632 [Test worker] ERROR A.AnnotationProcessor - No Concrete Factories found. Make sure you annotated your Concrete Factories
+21:36:00.634 [Test worker] ERROR A.AnnotationProcessor - No Abstract Products found. Make sure you annotated your Abstract Products
+21:36:00.635 [Test worker] ERROR A.AnnotationProcessor - No Concrete Products found. Make sure you annotated your Concrete Products
+21:36:00.635 [Test worker] WARN  A.AnnotationProcessor - No Client found
+21:36:00.636 [Test worker] INFO  A.AnnotationProcessor - Checking abstract factory: abstractFactory
+21:36:00.637 [Test worker] ERROR A.AnnotationProcessor - Abstract Factory: abstractFactory not implemented as interface
+21:36:00.638 [Test worker] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
+21:36:00.644 [Test worker] INFO  A.AnnotationProcessor - Running Test: ConcreteImplementationMissing
+21:36:00.850 [Test worker] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:36:00.851 [Test worker] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:36:00.851 [Test worker] ERROR A.AnnotationProcessor - No Concrete Factories found. Make sure you annotated your Concrete Factories
+21:36:00.852 [Test worker] ERROR A.AnnotationProcessor - No Concrete Products found. Make sure you annotated your Concrete Products
+21:36:00.853 [Test worker] WARN  A.AnnotationProcessor - No Client found
+21:36:00.853 [Test worker] INFO  A.AnnotationProcessor - Checking abstract factory: abstractFactory
+21:36:00.854 [Test worker] INFO  A.AnnotationProcessor - Checking abstract product: abstractProduct
+21:36:00.856 [Test worker] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
+21:36:00.866 [Test worker] INFO  A.AnnotationProcessor - Running Test: AbstractFactoryUsesConcreteProduct
+21:36:01.075 [Test worker] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:36:01.075 [Test worker] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:36:01.075 [Test worker] WARN  A.AnnotationProcessor - No Client found
+21:36:01.076 [Test worker] INFO  A.AnnotationProcessor - Checking abstract factory: abstractFactory
+21:36:01.076 [Test worker] ERROR A.AnnotationProcessor - Abstract Factory: abstractFactory's method someFunc returns concrete element
+21:36:01.076 [Test worker] INFO  A.AnnotationProcessor - Checking concrete factory: factory1
+21:36:01.076 [Test worker] ERROR A.AnnotationProcessor - Concrete Factory: factory1's method someFunc returns concrete class
+21:36:01.076 [Test worker] INFO  A.AnnotationProcessor - Checking abstract product: abstractProduct
+21:36:01.077 [Test worker] INFO  A.AnnotationProcessor - Checking concrete product: product1
+21:36:01.077 [Test worker] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
+21:36:01.081 [Test worker] INFO  A.AnnotationProcessor - Running Test: BasicStructureCorrect
+21:36:01.220 [Test worker] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:36:01.220 [Test worker] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:36:01.221 [Test worker] WARN  A.AnnotationProcessor - No Client found
+21:36:01.221 [Test worker] INFO  A.AnnotationProcessor - Checking abstract factory: abstractFactory
+21:36:01.221 [Test worker] INFO  A.AnnotationProcessor - Checking concrete factory: factory1
+21:36:01.221 [Test worker] INFO  A.AnnotationProcessor - Checking abstract product: abstractProduct
+21:36:01.221 [Test worker] INFO  A.AnnotationProcessor - Checking concrete product: product1
+21:36:01.222 [Test worker] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Nov 3, 2019, 9:36:01 PM</p>
+</div>
+</div>
+</body>
+</html>

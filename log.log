@@ -1,0 +1,14 @@
+21:01:29.385 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Starting Annotation Processor
+21:01:29.387 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking if all essential elements available
+21:01:29.387 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking client: WidgetApp.Client.Client
+21:01:29.387 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking abstract factory: WidgetApp.Factories.GUIFactory
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete factory: WidgetApp.Factories.MacOSFactory
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete factory: WidgetApp.Factories.WindowsFactory
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking abstract product: WidgetApp.Buttons.Button
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking abstract product: WidgetApp.Checkboxes.Checkbox
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete product: WidgetApp.Buttons.LinuxButton
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete product: WidgetApp.Buttons.MacOSButton
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete product: WidgetApp.Buttons.WindowsButton
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete product: WidgetApp.Checkboxes.MacOSCheckbox
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - Checking concrete product: WidgetApp.Checkboxes.WindowsCheckbox
+21:01:29.388 [Execution worker for ':' Thread 3] INFO  A.AnnotationProcessor - If you dont see any error above, your abstract factory design pattern is correct!
