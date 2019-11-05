@@ -1,5 +1,5 @@
-# Homework 2
-### Description: object-oriented design and implementation of an annotation framework and a verifier for Abstract Factory Design Pattern.
+# Design Pattern Verifier
+#### Description: Object-oriented design and implementation of an annotation framework and a verifier for abstract factory design pattern.
 
 ## Overview
 This project implements a design pattern verifier for abstract factory. It lets you know if you pattern doesn't follow the design rules using relevant warning and errors. It determines at compile time what entities are required for the design pattern and whether they are implemented correctly.
